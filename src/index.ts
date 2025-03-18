@@ -1,6 +1,5 @@
 import { testConnection } from './slack/client';
 import { scheduleWeeklyReminder } from './scheduler/scheduler';
-import { sendWeeklyReminder } from './slack/messages';
 
 /**
  * Initialize the application
