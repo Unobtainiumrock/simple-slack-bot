@@ -39,7 +39,8 @@ export const sendMessage = async (options: MessageOptions): Promise<boolean> => 
  * Send the weekly reminder message
  */
 export const sendWeeklyReminder = async (): Promise<boolean> => {
-  const reminderText = 'Reminder: Please fill out your end-of-week emails!';
+  // const reminderText = 'Reminder: Please fill out your end-of-week emails!';
+  const reminderText = 'BUN BUN!!';
   
   const blocks = [
     {

@@ -3,7 +3,7 @@ import { appConfig } from '../config/config';
 import { sendWeeklyReminder } from '../slack/messages';
 
 // Every Thursday at 7:00 PM in the configured timezone
-const WEEKLY_SCHEDULE = '0 19 * * 4';
+const WEEKLY_SCHEDULE = '*/5 * * * * *';
 
 /**
  * Schedule the weekly reminder
