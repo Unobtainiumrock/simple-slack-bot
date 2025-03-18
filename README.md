@@ -19,15 +19,12 @@ A simple Slack bot that sends automated reminders to fill out end-of-week emails
 npm install
 ```
 
-5. Start the bot:
-
-```bash
-npm start
-```
+5. Build the project:
 
 ```bash
 npm run build
 ```
+
 6. Start the bot:
 
 ```bash
@@ -41,7 +38,6 @@ For local development, you can use:
 ```bash
 npm run dev
 ```
-
 
 ## Configuration
 
